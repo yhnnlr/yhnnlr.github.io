@@ -1,0 +1,115 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    flex: 1;
+}
+
+p {
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    background-color: rgb(44, 49, 83);
+    padding: 80px 40px;
+    align-items: center;
+    flex:1;
+}
+
+.profile-pic {
+    object-fit: cover;
+    height: 200px;
+    width: auto;
+    border-radius: 100px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 50px;
+    padding: 20px 0;
+}
+
+.description p {
+    margin: 0;
+}
+
+.description-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.description-content {
+    padding: 14px 0px;
+    font-size: 24px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(78, 84, 119);
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.contact-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.logos-container {
+    display: flex;
+}
+
+.logo-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 16px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s;
+    margin-bottom: 16px;
+}
+
+.logo-link:hover {
+    transform: scale(1.1);
+}
+
+.logo-link img {
+    height: 100px;
+}
+
+.logo-link p {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+hr {
+    width: 45%;
+    height: 2px;
+    border: none;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 100%);
+    margin: 20px 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.email-text{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
